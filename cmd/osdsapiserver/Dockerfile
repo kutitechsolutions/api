@@ -3,7 +3,7 @@
 # Docker run usage:
 # 	docker run -d --net=host -v /etc/opensds:/etc/opensds sodafoundation/apiserver:latest
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 COPY osdsapiserver /usr/bin
 
