@@ -7,7 +7,7 @@
 # Docker run usage:
 #   docker run -d --privileged=true --name opensds-authchecker opensdsio/opensds-authchecker:latest
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 MAINTAINER Leon Wang <wanghui71leon@gmail.com>
 
 COPY keystone.sh /keystone.sh
